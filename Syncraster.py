@@ -63,7 +63,7 @@ class Syncraster():
             N = (freq - M * 0.05)/1.2
             GSCN = 3 * N + (M - 3)/2
         if((freq >= 3000)and(freq <= 24250)):
-            N = (freq - 3000)/1.22
+            N = (freq - 3000)/1.44
             GSCN = 7499 + N
         return GSCN
 
