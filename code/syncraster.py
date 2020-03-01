@@ -65,7 +65,7 @@ class Syncraster(object):
                 break
         offsetRB = offsetList[idx-1]
         rbStartCoreset0 = deltaRB - offsetRB
-        offsetRE = math.floor((SSrefLow - (10 + deltaRB)*12*0.03 - self.tranBandwidthLowFreq) * 1000 / 15)
+        offsetRE = round((SSrefLow - (10 + deltaRB)*12*0.03 - self.tranBandwidthLowFreq) * 1000 / 15)
         return offsetRB, offsetRE, rbStartCoreset0
 
     def freq2GSCN(slef, freq):

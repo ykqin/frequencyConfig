@@ -13,6 +13,6 @@ def freqConfig(FreqBandIndicator, ChannelBandwidthLow, ChannelBandwidthHigh, rbN
 if __name__ == '__main__':
 
     freqConfig("n41", 2515, 2615, 273, 0, 30, 48, 10)   # ChinaMobile2p6
-    freqConfig("n79", 4800, 4900, 273, 0, 30, 48, 40)  # ChinaMobile4p9
+    freqConfig("n79", 4800, 4900, 273, 0, 30, 48, 40)   # ChinaMobile4p9
     freqConfig("n78", 3400, 3500, 273, 0, 30, 48, 10)   # ChinaTelecom3p5
     freqConfig("n78", 3500, 3600, 273, 0, 30, 48, 10)   # ChinaUnicom3p5
